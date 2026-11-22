@@ -8,7 +8,8 @@
 
 :root {
   /* Taustakuva (vaihda tiedostonimi vastaamaan lataamaasi kuvaa) */
-  --background-image: url("https://githubusercontent.com");
+   --background-image: url("https://githubusercontent.com");
+
   
   /* Tummat läpikuultavat sävyt, jotta teksti erottuu hyvin */
   --background-primary: rgba(12, 12, 14, 0.82);
