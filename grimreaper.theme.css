@@ -1,0 +1,35 @@
+/**
+ * @name Grim Reaper
+ * @author draingang764
+ * @version 1.0.0
+ * @description Tumma ja tunnelmallinen Grim Reaper -teema.
+ * @source https://github.com
+ */
+
+:root {
+  /* Taustakuva (vaihda tiedostonimi vastaamaan lataamaasi kuvaa) */
+  --background-image: url("https://githubusercontent.com");
+  
+  /* Tummat läpikuultavat sävyt, jotta teksti erottuu hyvin */
+  --background-primary: rgba(12, 12, 14, 0.82);
+  --background-secondary: rgba(18, 18, 22, 0.88);
+  --background-tertiary: rgba(8, 8, 10, 0.92);
+  --brand-experiment: #7a7a85;
+}
+
+/* Asettaa kuvan koko Discordin taustalle */
+body,
+#app-mount {
+  background-image: var(--background-image) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Tekee pääelementeistä läpinäkyviä, jotta kuva näkyy läpi */
+.bg__960e4,
+.app_a3002d,
+.layers__960e4,
+.container_c48ade {
+  background: transparent !important;
+}
